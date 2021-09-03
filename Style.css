@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+}
+
+#Home {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#contact iframe {
+    width: 2000%;
+    align-content: center;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+
+
+#videos iframe {
+    width: 80%;
+}
+
+
+input {
+    background: grey;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+#marqueestyle {
+    background-color: blue;
+    font-size: 33;
+    color: white;
+}
+
+.achievment_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.achievment_head i {
+    float: right;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.campus_life_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.campus_life_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.campus_life_mainDiv hr {
+    width: 100%;
+}
+
+.campus_life_mainDiv h5,
+.campus_life_mainDiv p {
+    margin-left: 20px;
+}
+#school_achievment1{
+    color: black;
+}
+.whats_new_li{
+    margin-top: 15px;
+}
+.whats_new_li h4{
+    border-bottom: 1px solid white;
+    text-align:left;
+}
+.whats_new_li p{
+    margin-top: 10px;
+}
+.whats_new_li img{
+    border-radius: 25px;
+}
